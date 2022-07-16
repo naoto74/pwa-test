@@ -3,11 +3,11 @@ self.addEventListener("install",e=>{
     e.waitUntil(
         caches.open(version).then(cache=>{
             return cache.addAll([
-                "index.html",
-                "main.css",
-                "manifest.json",
-                "pwa-logo.png",
-                "sw.js"
+                "./index.html",
+                "./main.css",
+                "./manifest.json",
+                "./pwa-logo.png",
+                "./sw.js"
             ]);
         })
     );
