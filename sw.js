@@ -1,4 +1,4 @@
-const version = "Ver.1.4";
+const version = "Ver.1.5";
 self.addEventListener("install",e=>{
     e.waitUntil(
         caches.open(version).then(cache=>{
